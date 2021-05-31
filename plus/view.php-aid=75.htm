@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset=utf-8"utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>集散控制器（DCS）和逻辑控制器（PLC）_河北汉莎自动化设备科技有限公司</title>
+<meta name="description" content=" 汉莎自动化致力于为用户提供一站式自动化解决方案，产品涉及DCS、PLC、SCAD全系列产品。愿我们的服务为企业改善产品质量，提高工作效率，助理企业发展！" />
+<meta name="keywords" content="集散,控制器,DCS,和,逻辑,PLC,控制,类,产品," />
+<link rel="stylesheet" href="../skin/css/bootstrap.min.css" tppabs="http://www.thansacn.com/skin/css/bootstrap.min.css" />
+<link rel="stylesheet" href="../skin/css/swiper.min.css" tppabs="http://www.thansacn.com/skin/css/swiper.min.css" />
+<link rel="stylesheet" href="../skin/css/animate.min.css" tppabs="http://www.thansacn.com/skin/css/animate.min.css" />
+<link rel="stylesheet" href="../skin/css/fontawesome/css/font-awesome.min.css" tppabs="http://www.thansacn.com/skin/css/fontawesome/css/font-awesome.min.css" />
+<link rel="stylesheet" href="../skin/css/style.css" tppabs="http://www.thansacn.com/skin/css/style.css" />
+</head>
+<body class="m2body">
+    
+    <div class="overlay"></div>
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="offcanvas">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="logo">
+                    <a href="../index.html" tppabs="http://www.thansacn.com/">
+                        <img src="../skin/images/logo.png" tppabs="http://www.thansacn.com/skin/images/logo.png" /></a>
+                </div>
+                <div class="serBox">
+                    <input class="serInt" id="search" placeholder="Search" name="" type="text" /><input class="serSubmit" id="searchBtn" value="" name="" type="button" />
+                </div>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse sidebar-offcanvas">
+                <ul class="nav navbar-nav">
+                    <li><a class="nav_a " target="_self" href="../index.html" tppabs="http://www.thansacn.com/">首页</a></li>
+                  <li><a class="nav_a " target="_self" href="../a/about/index.htm" tppabs="http://www.thansacn.com/a/about/">关于汉莎</a>
+                        <dl class="navLayer">
+                            
+                            <dd class="ellipsis"><a class="cor_bs" target="_self" href="../a/about/26/index.htm" tppabs="http://www.thansacn.com/a/about/26/">公司介绍</a></dd>
+                            
+                            <dd class="ellipsis"><a class="cor_bs" target="_self" href="../a/about/27/list_27_1.html" tppabs="http://www.thansacn.com/a/about/27/list_27_1.html">资质荣誉</a></dd>
+                            
+                            <dd class="ellipsis"><a class="cor_bs" target="_self" href="javascript:if(confirm('http://www.thansacn.com/a/about/28/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ������, �����������, ����Ŀ����ֹͣ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.thansacn.com/a/about/28/'" tppabs="http://www.thansacn.com/a/about/28/">人才招聘</a></dd>
+                            
+                            <dd class="ellipsis"><a class="cor_bs" target="_self" href="javascript:if(confirm('http://www.thansacn.com/a/about/63/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ������, �����������, ����Ŀ����ֹͣ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.thansacn.com/a/about/63/'" tppabs="http://www.thansacn.com/a/about/63/">企业文化</a></dd>
+                            
+                            
+                        </dl>            
+                     </li>
+                    <li><a class="nav_a on" target="_self" href="javascript:if(confirm('http://www.thansacn.com/a/case/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ������, �����������, ����Ŀ����ֹͣ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.thansacn.com/a/case/'" tppabs="http://www.thansacn.com/a/case/">业务范围</a>
+                         <dl class="navLayer">
+                           
+                           <dd class="ellipsis"><a class="cor_bs" target="_self" href="javascript:if(confirm('http://www.thansacn.com/a/case/6/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ������, �����������, ����Ŀ����ֹͣ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.thansacn.com/a/case/6/'" tppabs="http://www.thansacn.com/a/case/6/">低压配电产品及系统</a></dd>
+						   
+                           <dd class="ellipsis"><a class="cor_bs" target="_self" href="javascript:if(confirm('http://www.thansacn.com/a/case/7/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ������, �����������, ����Ŀ����ֹͣ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.thansacn.com/a/case/7/'" tppabs="http://www.thansacn.com/a/case/7/">高压配电产品及系统</a></dd>
+						   
+                           <dd class="ellipsis"><a class="cor_bs" target="_self" href="../a/case/8/index.htm" tppabs="http://www.thansacn.com/a/case/8/">工业自动化</a></dd>
+						   
+                           <dd class="ellipsis"><a class="cor_bs" target="_self" href="../a/case/9/index.htm" tppabs="http://www.thansacn.com/a/case/9/">软件开发</a></dd>
+						   
+						 </dl>          
+                    </li><li><a class="nav_a " target="_self" href="../a/solution/index.htm" tppabs="http://www.thansacn.com/a/solution/">解决方案</a>
+                         <dl class="navLayer">
+                           
+                           <dd class="ellipsis"><a class="cor_bs" target="_self" href="../a/solution/12/index.htm" tppabs="http://www.thansacn.com/a/solution/12/">石油天然气</a></dd>
+						   
+                           <dd class="ellipsis"><a class="cor_bs" target="_self" href="../a/solution/13/index.htm" tppabs="http://www.thansacn.com/a/solution/13/">水处理</a></dd>
+						   
+                           <dd class="ellipsis"><a class="cor_bs" target="_self" href="../a/solution/14/index.htm" tppabs="http://www.thansacn.com/a/solution/14/">冶金</a></dd>
+						   
+                           <dd class="ellipsis"><a class="cor_bs" target="_self" href="../a/solution/15/index.htm" tppabs="http://www.thansacn.com/a/solution/15/">流水线自动化</a></dd>
+						   
+                           <dd class="ellipsis"><a class="cor_bs" target="_self" href="../a/solution/dianlizidonghua/index.htm" tppabs="http://www.thansacn.com/a/solution/dianlizidonghua/">能源管理</a></dd>
+						   
+                           <dd class="ellipsis"><a class="cor_bs" target="_self" href="../a/solution/zhihuichengshi/index.htm" tppabs="http://www.thansacn.com/a/solution/zhihuichengshi/">智慧城市</a></dd>
+						   
+						 </dl>          
+                    </li><li><a class="nav_a " target="_self" href="../a/news/index.htm" tppabs="http://www.thansacn.com/a/news/">资讯中心</a>
+                         <dl class="navLayer">
+                           
+                           <dd class="ellipsis"><a class="cor_bs" target="_self" href="../a/news/34/index.htm" tppabs="http://www.thansacn.com/a/news/34/">公司新闻</a></dd>
+						   
+                           <dd class="ellipsis"><a class="cor_bs" target="_self" href="../a/news/32/index.htm" tppabs="http://www.thansacn.com/a/news/32/">行业资讯</a></dd>
+						   
+						 </dl>          
+                    </li>
+                    <li><a class="nav_a " target="_self" href="../a/lianxiwomen/index.htm" tppabs="http://www.thansacn.com/a/lianxiwomen/">联系我们</a>
+                        <dl class="navLayer">
+                            
+                            <dd class="ellipsis"><a class="cor_bs" target="_self" href="../a/lianxiwomen/index.htm" tppabs="http://www.thansacn.com/a/lianxiwomen/">联系方式</a></dd>
+                            
+                              
+                        </dl>            
+                     </li>
+                        
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="m2ban autoImg">
+        <div class="dsPc">
+            <img src="../skin/images/m2ban2_pc.jpg" tppabs="http://www.thansacn.com/skin/images/m2ban2_pc.jpg">
+        </div>
+        <div class="dsPad">
+            <img src="../skin/images/m2ban2_pad.jpg" tppabs="http://www.thansacn.com/skin/images/m2ban2_pad.jpg">
+        </div>
+        <div class="dsPhone">
+            <img src="../skin/images/m2ban2_phone.jpg" tppabs="http://www.thansacn.com/skin/images/m2ban2_phone.jpg">
+        </div>
+    </div>
+    
+<div class="m2pos">
+    <div class="m2posNm"><span>Case</span>业务范围</div>
+</div>
+<div class="m2menu">
+    
+	<a href="javascript:if(confirm('http://www.thansacn.com/a/case/6/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ������, �����������, ����Ŀ����ֹͣ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.thansacn.com/a/case/6/'" tppabs="http://www.thansacn.com/a/case/6/" class="m2menu_a" target="_self">低压配电产品及系统</a>
+	
+	<a href="javascript:if(confirm('http://www.thansacn.com/a/case/7/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ������, �����������, ����Ŀ����ֹͣ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.thansacn.com/a/case/7/'" tppabs="http://www.thansacn.com/a/case/7/" class="m2menu_a" target="_self">高压配电产品及系统</a>
+	<a href="../a/case/8/index.htm" tppabs="http://www.thansacn.com/a/case/8/" class='m2menu_a on' target='_self'>工业自动化</a>
+	<a href="../a/case/9/index.htm" tppabs="http://www.thansacn.com/a/case/9/" class="m2menu_a" target="_self">软件开发</a>
+	
+</div>
+
+    <div class="container">
+        <h2 class="m2news_title">集散控制器（DCS）和逻辑控制器（PLC）</h2>
+        <div class="m2news_time">TIME:2019-05-25 &nbsp; click: 91 次</div>
+        <div class="m2newsEditor autoMaxImg"><div style="text-align: center;">
+	<span style="font-size:18px;"><strong>集散控制器（DCS）和逻辑控制器（PLC）</strong><br />
+	<span style="font-size:12px;">汉莎自动化技术部 编辑</span></span><br />
+	<br />
+	<span style="color: rgb(255, 0, 0); font-size: 18px;">汉莎自动化致力于为用户提供一站式自动化解决方案，产品涉及DCS、PLC、SCAD全系列产品。愿我们的服务为企业改善产品质量，提高工作效率，助力企业发展！</span><br />
+	<br />
+	<img alt="" src="../uploads/190525/1-1Z5251P112347.png" tppabs="http://www.thansacn.com/uploads/190525/1-1Z5251P112347.png" style="width: 600px; height: 433px;" /></div>
+&nbsp; &nbsp; &nbsp; &nbsp;<br />
+<div style="text-align: center;">
+	<span style="text-align: center;">&nbsp;</span><span style="font-size:18px;"><span style="text-align: center; color: rgb(255, 0, 0);">&nbsp;</span></span></div>
+<br />
+控制类产品名目繁多，各家叫法不一。通常使用的控制类产品包括DCS、PLC两大类。我们又将DCS的概念拓展到FCS：<br />
+DCS（Distributed&nbsp;Contorl&nbsp;System）,集散控制系统，又称分布式控制系统。<br />
+PLC（Program&nbsp;Logic&nbsp;Control&nbsp;）,可编程逻辑控制器。<br />
+FCS（FieldBus&nbsp;Contorl&nbsp;Syestem），现场总线控制系统<br />
+&nbsp; &nbsp; &nbsp; &nbsp; DCS从传统的仪表盘监控系统发展而来。因此，DCS从先天性来说较为侧重仪表的控制，比如我们使用的YOKOGAWA CS3000&nbsp;DCS系统甚至没有PID数量的限制（PID,比例微分积分算法，是调节阀、变频器闭环控制的标准算法，通常PID的数量决定了可以使用的调节阀数量）。PLC从传统的继电器回路发展而来，最初的PLC甚至没有模拟量的处理能力，因此，PLC从开始就强调的是逻辑运算能力。发展至今二者相互渗透、互为补充，PLC与DCS的差别已不明显，它们都能构成复杂的分级控制。<br />
+&nbsp; &nbsp; &nbsp; &nbsp; 可编程控制器(PLC)，或可编程控制器是一种工业数字计算机，以控制生产过程，如装配线，或机器人设备，或任何需要高可靠性控制和易于编程和过程故障诊断的活动。目前，大多数PLC系统都遵循IEC 61131/3控制系统编程标准，定义了5种语言:梯形图(LD)、结构化文本(ST)、函数框图(FBD)、指令列表(IL)和顺序流程图(SFC)。现在的PLC控制器可以在个人电脑上使用应用软件编程，用图形代替字符符号来表示逻辑。计算机通过USB、以太网、RS-232、RS-485或RS-422电缆连接到PLC。编程软件允许对梯形逻辑进行输入和编辑。在一些软件包中，也可以在函数框图、顺序流程图和结构化文本中查看和编辑程序。一般来说，该软件提供了对PLC软件进行编程调试和运行状态监控的功能，该软件将上传和下载PLC程序，用于备份和恢复。<br />
+&nbsp; &nbsp; &nbsp; &nbsp; DCS最主要的特点是分散控制和集中管理。分散控制依靠现场控制单元完成，现场控制单元一般远离控制中心，安装在靠近现场的地方，其高度模块化结构可以根据过程监测和控制的需要配置成由几个监控点到数百个监控点的规模不等的过程控制单元。现场控制单元的结构形式和配置要求与模块化PLC的硬件配置是一致的。集中管理依靠操作站完成，操作站包括操作员站和工程师站。操作员站具有数据采集和处理、监控画面显示、故障诊断和报警等功能。工程师站除了具有操作员站的一般功能以外，还应具备系统的组态、控制目标的修改等功能。从硬件设备上看，多数系统的工程师站和操作员站合在一起，仅用一个工程师键盘加以区分。<br />
+<br />
+<div style="text-align: center;">
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+</div>
+        <div class="page2">
+            <span class="fl bdsharebuttonbox">
+                <a href="#" class="page2_res1" data-cmd="qzone"></a>
+                <a href="#" class="page2_res2" data-cmd="tsina"></a>
+                <a href="#" class="page2_res3" data-cmd="more"></a>
+                <a href="#" class="page2_res4" data-cmd="weixin"></a>
+                <a href="#" class="page2_res5" data-cmd="tqf"></a>
+            </span>
+            <span class="fr">
+                
+                <a class="page_next" href="view.php-aid=76.htm" tppabs="http://www.thansacn.com/plus/view.php?aid=76"></a> 
+            </span>
+        </div>
+    </div>
+
+    <footer class="footer clearfix">
+        <div class="container">
+            <span class="fl">Copyright © 河北汉莎自动化设备科技有限公司 版权所有<br/>备案编号：<a href="javascript:if(confirm('http://beian.miit.gov.cn/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://beian.miit.gov.cn/'" tppabs="http://beian.miit.gov.cn/" style="color:white" target="_blank">冀ICP备19010039号-1</a></span>
+            <span class="fr">
+                
+                        <a href="javascript:if(confirm('http://www.thansacn.com/a/case/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ������, �����������, ����Ŀ����ֹͣ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.thansacn.com/a/case/'" tppabs="http://www.thansacn.com/a/case/" target="_self">业务范围</a>
+                    |　
+                
+                        <a href="../a/solution/index.htm" tppabs="http://www.thansacn.com/a/solution/" target="_self">解决方案</a>
+                    |　
+                
+                        <a href="../a/about/index.htm" tppabs="http://www.thansacn.com/a/about/" target="_self">关于汉莎</a>
+                    |　
+                
+                        <a href="../a/news/index.htm" tppabs="http://www.thansacn.com/a/news/" target="_self">资讯中心</a>
+                    |　
+                
+                        <a href="../a/lianxiwomen/index.htm" tppabs="http://www.thansacn.com/a/lianxiwomen/" target="_self">联系我们</a>
+                    
+                
+            </span>
+        </div>
+    </footer>
+
+    <!--右侧菜单-->
+    <div class="ke_ConMenu">
+        <ul>
+            <li>
+                <span class="keCon_icon">
+                    <img src="../skin/images/keCon_icon1.png" tppabs="http://www.thansacn.com/skin/images/keCon_icon1.png" width="40" height="40" /><div class="keCon_show" style="width: 182px;"><a class="cor_bs" href="tel:0311-87786830">0311-87786830<img src="../skin/images/keCon_icon1.png" tppabs="http://www.thansacn.com/skin/images/keCon_icon1.png" width="40" height="40"></a></div>
+                </span>
+            </li>
+            <li>
+                <span class="keCon_icon">
+                    <img src="../skin/images/keCon_icon2.png" tppabs="http://www.thansacn.com/skin/images/keCon_icon2.png" width="40" height="40" /><div class="keCon_show" style="width: 180px;"><a class="cor_bs" href="mailto:thansa@163.com">thansa@163.com<img src="../skin/images/keCon_icon2.png" tppabs="http://www.thansacn.com/skin/images/keCon_icon2.png" width="40" height="40"></a></div>
+                </span>
+            </li>
+            <li>
+                <span class="keCon_icon">
+                    <img src="../skin/images/keCon_icon3.png" tppabs="http://www.thansacn.com/skin/images/keCon_icon3.png" width="40" height="40" /><div class="keCon_show" style="width: 40px;">
+                        <img src="../skin/images/keCon_icon3.png" tppabs="http://www.thansacn.com/skin/images/keCon_icon3.png" width="40" height="40" />
+                    </div>
+                </span>
+                <div class="keCon_wx">
+                    <img src="../skin/images/wxImg.jpg" tppabs="http://www.thansacn.com/skin/images/wxImg.jpg" width="180" height="180" /><br />
+                    微信公众号
+                </div>
+            </li>
+            <li class="backTop">
+                <span class="keCon_icon">
+                    <img src="../skin/images/keCon_icon4.png" tppabs="http://www.thansacn.com/skin/images/keCon_icon4.png" width="40" height="40" /><div class="keCon_show" style="width: 40px;">
+                        <img src="../skin/images/keCon_icon4.png" tppabs="http://www.thansacn.com/skin/images/keCon_icon4.png" width="40" height="40" />
+                    </div>
+                </span>
+            </li>
+        </ul>
+    </div>
+    <script src="../skin/js/jquery.js" tppabs="http://www.thansacn.com/skin/js/jquery.js"></script>
+    <script src="../skin/js/prefixfree.min.js" tppabs="http://www.thansacn.com/skin/js/prefixfree.min.js"></script>
+    <script src="../skin/js/TouchSlide.1.1.js" tppabs="http://www.thansacn.com/skin/js/TouchSlide.1.1.js"></script>
+    <script src="../skin/js/ss.js" tppabs="http://www.thansacn.com/skin/js/ss.js"></script>
+    <script src="../skin/js/bootstrap.min.js" tppabs="http://www.thansacn.com/skin/js/bootstrap.min.js"></script>
+    <script src="../skin/js/swiper.min.js" tppabs="http://www.thansacn.com/skin/js/swiper.min.js"></script>
+    <script src="../skin/js/swiper.animate1.0.2.min.js" tppabs="http://www.thansacn.com/skin/js/swiper.animate1.0.2.min.js"></script>
+    <script src="../skin/js/jquery.scrollto.js" tppabs="http://www.thansacn.com/skin/js/jquery.scrollto.js"></script>
+    <script src="../skin/js/public.js" tppabs="http://www.thansacn.com/skin/js/public.js"></script>
+    <script>
+        $(function () {
+            $("#search").focus(function () {
+                document.onkeydown = function (e) {
+                    var ev = document.all ? window.event : e;
+                    if (ev.keyCode == 13) {
+                        if ($("#search").val() == "") {
+                            return;
+                        } else {
+                            window.location.href = ("/plus/search.php?kwtype=0&q=" + $("#search").val());
+                        }
+                    }
+                }
+            });
+            $("#searchBtn").click(function () {
+                if ($("#search").val() == "") {
+                    return;
+                } else {
+                    window.location.href = ("/plus/search.php?kwtype=0&q=" + $("#search").val());
+                }
+            });
+        });
+    </script>    
+
+<NOSCRIPT><iframe src="-.html" tppabs="http://www.thansacn.com/plus/*.html"></iframe></NOSCRIPT>
+<script type="text/javascript">document.oncontextmenu=new Function("event.returnValue=false");document.onselectstart=new Function("event.returnValue=false");</script>
+    <script src="../skin/js/qz.ad.floating.js" tppabs="http://www.thansacn.com/skin/js/qz.ad.floating.js" type="text/javascript"></script>
+    <script src="../skin/js/qz.ad.popup.js" tppabs="http://www.thansacn.com/skin/js/qz.ad.popup.js" type="text/javascript"></script>
+    <script src="../skin/js/qz.ad.screen.js" tppabs="http://www.thansacn.com/skin/js/qz.ad.screen.js" type="text/javascript"></script>
+</body>
+</html>

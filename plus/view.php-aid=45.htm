@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset=utf-8"utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ä½å‹æŠ½å‡ºå¼å¼€å…³è®¾å¤‡ï¼ˆGCSï¼‰_æ²³åŒ—æ±‰èè‡ªåŠ¨åŒ–è®¾å¤‡ç§‘æŠ€æœ‰é™å…¬å¸</title>
+<meta name="description" content="" />
+<meta name="keywords" content="GCS,æ²³åŒ—,æ±‰è,è‡ªåŠ¨åŒ–,è®¾å¤‡,ç§‘æŠ€,æœ‰é™å…¬å¸," />
+<link rel="stylesheet" href="../skin/css/bootstrap.min.css" tppabs="http://www.thansacn.com/skin/css/bootstrap.min.css" />
+<link rel="stylesheet" href="../skin/css/swiper.min.css" tppabs="http://www.thansacn.com/skin/css/swiper.min.css" />
+<link rel="stylesheet" href="../skin/css/animate.min.css" tppabs="http://www.thansacn.com/skin/css/animate.min.css" />
+<link rel="stylesheet" href="../skin/css/fontawesome/css/font-awesome.min.css" tppabs="http://www.thansacn.com/skin/css/fontawesome/css/font-awesome.min.css" />
+<link rel="stylesheet" href="../skin/css/style.css" tppabs="http://www.thansacn.com/skin/css/style.css" />
+</head>
+<body class="m2body">
+    
+    <div class="overlay"></div>
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="offcanvas">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="logo">
+                    <a href="../index.html" tppabs="http://www.thansacn.com/">
+                        <img src="../skin/images/logo.png" tppabs="http://www.thansacn.com/skin/images/logo.png" /></a>
+                </div>
+                <div class="serBox">
+                    <input class="serInt" id="search" placeholder="Search" name="" type="text" /><input class="serSubmit" id="searchBtn" value="" name="" type="button" />
+                </div>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse sidebar-offcanvas">
+                <ul class="nav navbar-nav">
+                    <li><a class="nav_a " target="_self" href="../index.html" tppabs="http://www.thansacn.com/">é¦–é¡µ</a></li>
+                  <li><a class="nav_a on" target="_self" href="../a/about/index.htm" tppabs="http://www.thansacn.com/a/about/">å…³äºæ±‰è</a>
+                        <dl class="navLayer">
+                            
+                            <dd class="ellipsis"><a class="cor_bs" target="_self" href="../a/about/26/index.htm" tppabs="http://www.thansacn.com/a/about/26/">å…¬å¸ä»‹ç»</a></dd>
+                            
+                            <dd class="ellipsis"><a class="cor_bs" target="_self" href="../a/about/27/list_27_1.html" tppabs="http://www.thansacn.com/a/about/27/list_27_1.html">èµ„è´¨è£èª‰</a></dd>
+                            
+                            <dd class="ellipsis"><a class="cor_bs" target="_self" href="javascript:if(confirm('http://www.thansacn.com/a/about/28/  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ²»¿ÉÓÃ, »ò·ÅÆúÁËÏÂÔØ, »òÏîÄ¿¼´½«Í£Ö¹¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.thansacn.com/a/about/28/'" tppabs="http://www.thansacn.com/a/about/28/">äººæ‰æ‹›è˜</a></dd>
+                            
+                            <dd class="ellipsis"><a class="cor_bs" target="_self" href="javascript:if(confirm('http://www.thansacn.com/a/about/63/  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ²»¿ÉÓÃ, »ò·ÅÆúÁËÏÂÔØ, »òÏîÄ¿¼´½«Í£Ö¹¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.thansacn.com/a/about/63/'" tppabs="http://www.thansacn.com/a/about/63/">ä¼ä¸šæ–‡åŒ–</a></dd>
+                            
+                            
+                        </dl>            
+                     </li>
+                    <li><a class="nav_a " target="_self" href="javascript:if(confirm('http://www.thansacn.com/a/case/  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ²»¿ÉÓÃ, »ò·ÅÆúÁËÏÂÔØ, »òÏîÄ¿¼´½«Í£Ö¹¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.thansacn.com/a/case/'" tppabs="http://www.thansacn.com/a/case/">ä¸šåŠ¡èŒƒå›´</a>
+                         <dl class="navLayer">
+                           
+                           <dd class="ellipsis"><a class="cor_bs" target="_self" href="javascript:if(confirm('http://www.thansacn.com/a/case/6/  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ²»¿ÉÓÃ, »ò·ÅÆúÁËÏÂÔØ, »òÏîÄ¿¼´½«Í£Ö¹¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.thansacn.com/a/case/6/'" tppabs="http://www.thansacn.com/a/case/6/">ä½å‹é…ç”µäº§å“åŠç³»ç»Ÿ</a></dd>
+						   
+                           <dd class="ellipsis"><a class="cor_bs" target="_self" href="javascript:if(confirm('http://www.thansacn.com/a/case/7/  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ²»¿ÉÓÃ, »ò·ÅÆúÁËÏÂÔØ, »òÏîÄ¿¼´½«Í£Ö¹¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.thansacn.com/a/case/7/'" tppabs="http://www.thansacn.com/a/case/7/">é«˜å‹é…ç”µäº§å“åŠç³»ç»Ÿ</a></dd>
+						   
+                           <dd class="ellipsis"><a class="cor_bs" target="_self" href="../a/case/8/index.htm" tppabs="http://www.thansacn.com/a/case/8/">å·¥ä¸šè‡ªåŠ¨åŒ–</a></dd>
+						   
+                           <dd class="ellipsis"><a class="cor_bs" target="_self" href="../a/case/9/index.htm" tppabs="http://www.thansacn.com/a/case/9/">è½¯ä»¶å¼€å‘</a></dd>
+						   
+						 </dl>          
+                    </li><li><a class="nav_a " target="_self" href="../a/solution/index.htm" tppabs="http://www.thansacn.com/a/solution/">è§£å†³æ–¹æ¡ˆ</a>
+                         <dl class="navLayer">
+                           
+                           <dd class="ellipsis"><a class="cor_bs" target="_self" href="../a/solution/12/index.htm" tppabs="http://www.thansacn.com/a/solution/12/">çŸ³æ²¹å¤©ç„¶æ°”</a></dd>
+						   
+                           <dd class="ellipsis"><a class="cor_bs" target="_self" href="../a/solution/13/index.htm" tppabs="http://www.thansacn.com/a/solution/13/">æ°´å¤„ç†</a></dd>
+						   
+                           <dd class="ellipsis"><a class="cor_bs" target="_self" href="../a/solution/14/index.htm" tppabs="http://www.thansacn.com/a/solution/14/">å†¶é‡‘</a></dd>
+						   
+                           <dd class="ellipsis"><a class="cor_bs" target="_self" href="../a/solution/15/index.htm" tppabs="http://www.thansacn.com/a/solution/15/">æµæ°´çº¿è‡ªåŠ¨åŒ–</a></dd>
+						   
+                           <dd class="ellipsis"><a class="cor_bs" target="_self" href="../a/solution/dianlizidonghua/index.htm" tppabs="http://www.thansacn.com/a/solution/dianlizidonghua/">èƒ½æºç®¡ç†</a></dd>
+						   
+                           <dd class="ellipsis"><a class="cor_bs" target="_self" href="../a/solution/zhihuichengshi/index.htm" tppabs="http://www.thansacn.com/a/solution/zhihuichengshi/">æ™ºæ…§åŸå¸‚</a></dd>
+						   
+						 </dl>          
+                    </li><li><a class="nav_a " target="_self" href="../a/news/index.htm" tppabs="http://www.thansacn.com/a/news/">èµ„è®¯ä¸­å¿ƒ</a>
+                         <dl class="navLayer">
+                           
+                           <dd class="ellipsis"><a class="cor_bs" target="_self" href="../a/news/34/index.htm" tppabs="http://www.thansacn.com/a/news/34/">å…¬å¸æ–°é—»</a></dd>
+						   
+                           <dd class="ellipsis"><a class="cor_bs" target="_self" href="../a/news/32/index.htm" tppabs="http://www.thansacn.com/a/news/32/">è¡Œä¸šèµ„è®¯</a></dd>
+						   
+						 </dl>          
+                    </li>
+                    <li><a class="nav_a on" target="_self" href="../a/lianxiwomen/index.htm" tppabs="http://www.thansacn.com/a/lianxiwomen/">è”ç³»æˆ‘ä»¬</a>
+                        <dl class="navLayer">
+                            
+                            <dd class="ellipsis"><a class="cor_bs" target="_self" href="../a/lianxiwomen/index.htm" tppabs="http://www.thansacn.com/a/lianxiwomen/">è”ç³»æ–¹å¼</a></dd>
+                            
+                              
+                        </dl>            
+                     </li>
+                        
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="m2ban autoImg">
+        <div class="dsPc">
+            <img src="../skin/images/m2ban4_pc.jpg" tppabs="http://www.thansacn.com/skin/images/m2ban4_pc.jpg">
+        </div>
+        <div class="dsPad">
+            <img src="../skin/images/m2ban4_pad.jpg" tppabs="http://www.thansacn.com/skin/images/m2ban4_pad.jpg">
+        </div>
+        <div class="dsPhone">
+            <img src="../skin/images/m2ban4_phone.jpg" tppabs="http://www.thansacn.com/skin/images/m2ban4_phone.jpg">
+        </div>
+    </div>
+    
+<div class="m2pos">
+    <div class="m2posNm"><span>About us</span>å…³äºæ±‰è</div>
+</div>
+<div class="m2menu">
+    
+	<a href="../a/about/26/index.htm" tppabs="http://www.thansacn.com/a/about/26/" class="m2menu_a" target="_self">å…¬å¸ä»‹ç»</a>
+	<a href="../a/about/27/list_27_1.html" tppabs="http://www.thansacn.com/a/about/27/list_27_1.html" class='m2menu_a on' target='_self'>èµ„è´¨è£èª‰</a>
+	<a href="javascript:if(confirm('http://www.thansacn.com/a/about/28/  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ²»¿ÉÓÃ, »ò·ÅÆúÁËÏÂÔØ, »òÏîÄ¿¼´½«Í£Ö¹¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.thansacn.com/a/about/28/'" tppabs="http://www.thansacn.com/a/about/28/" class="m2menu_a" target="_self">äººæ‰æ‹›è˜</a>
+	
+	<a href="javascript:if(confirm('http://www.thansacn.com/a/about/63/  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ²»¿ÉÓÃ, »ò·ÅÆúÁËÏÂÔØ, »òÏîÄ¿¼´½«Í£Ö¹¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.thansacn.com/a/about/63/'" tppabs="http://www.thansacn.com/a/about/63/" class="m2menu_a" target="_self">ä¼ä¸šæ–‡åŒ–</a>
+	
+</div>
+
+    <div class="container">
+        <h2 class="m2news_title">ä½å‹æŠ½å‡ºå¼å¼€å…³è®¾å¤‡ï¼ˆGCSï¼‰</h2>
+        <div class="m2news_time">TIME:2020-07-20 &nbsp; click: 162 æ¬¡</div>
+        <div class="m2newsEditor autoMaxImg"><div style="text-align: center;">
+	<img alt="" src="../uploads/allimg/190430/200720/1-200H0103A53J.jpg" tppabs="http://www.thansacn.com/uploads/allimg/190430/200720/1-200H0103A53J.jpg" style="width: 447px; height: 620px;" /><br />
+	<img alt="" src="../uploads/allimg/190430/200720/200720/1-200H0103J5191.jpg" tppabs="http://www.thansacn.com/uploads/allimg/190430/200720/200720/1-200H0103J5191.jpg" style="width: 447px; height: 620px;" /></div>
+</div>
+        <div class="page2">
+            <span class="fl bdsharebuttonbox">
+                <a href="#" class="page2_res1" data-cmd="qzone"></a>
+                <a href="#" class="page2_res2" data-cmd="tsina"></a>
+                <a href="#" class="page2_res3" data-cmd="more"></a>
+                <a href="#" class="page2_res4" data-cmd="weixin"></a>
+                <a href="#" class="page2_res5" data-cmd="tqf"></a>
+            </span>
+            <span class="fr">
+                <a class="page_prev" href="view.php-aid=44.htm" tppabs="http://www.thansacn.com/plus/view.php?aid=44"></a> 
+                <a class="page_next" href="view.php-aid=46.htm" tppabs="http://www.thansacn.com/plus/view.php?aid=46"></a> 
+            </span>
+        </div>
+    </div>
+
+    <footer class="footer clearfix">
+        <div class="container">
+            <span class="fl">Copyright Â© æ²³åŒ—æ±‰èè‡ªåŠ¨åŒ–è®¾å¤‡ç§‘æŠ€æœ‰é™å…¬å¸ ç‰ˆæƒæ‰€æœ‰<br/>å¤‡æ¡ˆç¼–å·ï¼š<a href="javascript:if(confirm('http://beian.miit.gov.cn/  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ËüÊÇÒ»¸öÓò»òÂ·¾¶Íâ²¿±»ÉèÖÃÎªËüµÄÆôÊ¼µØÖ·µÄµØÖ·¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://beian.miit.gov.cn/'" tppabs="http://beian.miit.gov.cn/" style="color:white" target="_blank">å†€ICPå¤‡19010039å·-1</a></span>
+            <span class="fr">
+                
+                        <a href="javascript:if(confirm('http://www.thansacn.com/a/case/  \n\n¸ÃÎÄ¼şÎŞ·¨ÓÃ Teleport Ultra ÏÂÔØ, ÒòÎª ²»¿ÉÓÃ, »ò·ÅÆúÁËÏÂÔØ, »òÏîÄ¿¼´½«Í£Ö¹¡£  \n\nÄãÏëÔÚ·şÎñÆ÷ÉÏ´ò¿ªËü?'))window.location='http://www.thansacn.com/a/case/'" tppabs="http://www.thansacn.com/a/case/" target="_self">ä¸šåŠ¡èŒƒå›´</a>
+                    |ã€€
+                
+                        <a href="../a/solution/index.htm" tppabs="http://www.thansacn.com/a/solution/" target="_self">è§£å†³æ–¹æ¡ˆ</a>
+                    |ã€€
+                
+                        <a href="../a/about/index.htm" tppabs="http://www.thansacn.com/a/about/" target="_self">å…³äºæ±‰è</a>
+                    |ã€€
+                
+                        <a href="../a/news/index.htm" tppabs="http://www.thansacn.com/a/news/" target="_self">èµ„è®¯ä¸­å¿ƒ</a>
+                    |ã€€
+                
+                        <a href="../a/lianxiwomen/index.htm" tppabs="http://www.thansacn.com/a/lianxiwomen/" target="_self">è”ç³»æˆ‘ä»¬</a>
+                    
+                
+            </span>
+        </div>
+    </footer>
+
+    <!--å³ä¾§èœå•-->
+    <div class="ke_ConMenu">
+        <ul>
+            <li>
+                <span class="keCon_icon">
+                    <img src="../skin/images/keCon_icon1.png" tppabs="http://www.thansacn.com/skin/images/keCon_icon1.png" width="40" height="40" /><div class="keCon_show" style="width: 182px;"><a class="cor_bs" href="tel:0311-87786830">0311-87786830<img src="../skin/images/keCon_icon1.png" tppabs="http://www.thansacn.com/skin/images/keCon_icon1.png" width="40" height="40"></a></div>
+                </span>
+            </li>
+            <li>
+                <span class="keCon_icon">
+                    <img src="../skin/images/keCon_icon2.png" tppabs="http://www.thansacn.com/skin/images/keCon_icon2.png" width="40" height="40" /><div class="keCon_show" style="width: 180px;"><a class="cor_bs" href="mailto:thansa@163.com">thansa@163.com<img src="../skin/images/keCon_icon2.png" tppabs="http://www.thansacn.com/skin/images/keCon_icon2.png" width="40" height="40"></a></div>
+                </span>
+            </li>
+            <li>
+                <span class="keCon_icon">
+                    <img src="../skin/images/keCon_icon3.png" tppabs="http://www.thansacn.com/skin/images/keCon_icon3.png" width="40" height="40" /><div class="keCon_show" style="width: 40px;">
+                        <img src="../skin/images/keCon_icon3.png" tppabs="http://www.thansacn.com/skin/images/keCon_icon3.png" width="40" height="40" />
+                    </div>
+                </span>
+                <div class="keCon_wx">
+                    <img src="../skin/images/wxImg.jpg" tppabs="http://www.thansacn.com/skin/images/wxImg.jpg" width="180" height="180" /><br />
+                    å¾®ä¿¡å…¬ä¼—å·
+                </div>
+            </li>
+            <li class="backTop">
+                <span class="keCon_icon">
+                    <img src="../skin/images/keCon_icon4.png" tppabs="http://www.thansacn.com/skin/images/keCon_icon4.png" width="40" height="40" /><div class="keCon_show" style="width: 40px;">
+                        <img src="../skin/images/keCon_icon4.png" tppabs="http://www.thansacn.com/skin/images/keCon_icon4.png" width="40" height="40" />
+                    </div>
+                </span>
+            </li>
+        </ul>
+    </div>
+    <script src="../skin/js/jquery.js" tppabs="http://www.thansacn.com/skin/js/jquery.js"></script>
+    <script src="../skin/js/prefixfree.min.js" tppabs="http://www.thansacn.com/skin/js/prefixfree.min.js"></script>
+    <script src="../skin/js/TouchSlide.1.1.js" tppabs="http://www.thansacn.com/skin/js/TouchSlide.1.1.js"></script>
+    <script src="../skin/js/ss.js" tppabs="http://www.thansacn.com/skin/js/ss.js"></script>
+    <script src="../skin/js/bootstrap.min.js" tppabs="http://www.thansacn.com/skin/js/bootstrap.min.js"></script>
+    <script src="../skin/js/swiper.min.js" tppabs="http://www.thansacn.com/skin/js/swiper.min.js"></script>
+    <script src="../skin/js/swiper.animate1.0.2.min.js" tppabs="http://www.thansacn.com/skin/js/swiper.animate1.0.2.min.js"></script>
+    <script src="../skin/js/jquery.scrollto.js" tppabs="http://www.thansacn.com/skin/js/jquery.scrollto.js"></script>
+    <script src="../skin/js/public.js" tppabs="http://www.thansacn.com/skin/js/public.js"></script>
+    <script>
+        $(function () {
+            $("#search").focus(function () {
+                document.onkeydown = function (e) {
+                    var ev = document.all ? window.event : e;
+                    if (ev.keyCode == 13) {
+                        if ($("#search").val() == "") {
+                            return;
+                        } else {
+                            window.location.href = ("/plus/search.php?kwtype=0&q=" + $("#search").val());
+                        }
+                    }
+                }
+            });
+            $("#searchBtn").click(function () {
+                if ($("#search").val() == "") {
+                    return;
+                } else {
+                    window.location.href = ("/plus/search.php?kwtype=0&q=" + $("#search").val());
+                }
+            });
+        });
+    </script>    
+
+<NOSCRIPT><iframe src="-.html" tppabs="http://www.thansacn.com/plus/*.html"></iframe></NOSCRIPT>
+<script type="text/javascript">document.oncontextmenu=new Function("event.returnValue=false");document.onselectstart=new Function("event.returnValue=false");</script>
+    <script src="../skin/js/qz.ad.floating.js" tppabs="http://www.thansacn.com/skin/js/qz.ad.floating.js" type="text/javascript"></script>
+    <script src="../skin/js/qz.ad.popup.js" tppabs="http://www.thansacn.com/skin/js/qz.ad.popup.js" type="text/javascript"></script>
+    <script src="../skin/js/qz.ad.screen.js" tppabs="http://www.thansacn.com/skin/js/qz.ad.screen.js" type="text/javascript"></script>
+</body>
+</html>
