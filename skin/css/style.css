@@ -124,11 +124,11 @@ select,input,textarea{ outline:none}
 .hmc1chgCon { height: 353px; position: relative; }
 .hmc1Img { height: 453px; background-size: auto auto; position: absolute; left: 0px; top: 0px; right: 193px; background-size:cover; background-position:center center; }
 .hmc1Chg .hd { border-left: 1px solid #ccc; width: 100%; overflow: hidden; }
-.hmc1Chg .hd ul li { height: 116px; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; float: left; width: 20.72%; color: #999999; font-size: 24px; line-height: 114px; text-align: center; cursor: pointer; }
+.hmc1Chg .hd ul li { height: 116px; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; float: left; width: 24.72%; color: #999999; font-size: 24px; line-height: 114px; text-align: center; cursor: pointer; }
 .hmc1Chg .hd ul li img { margin-right: 5px; }
 .hmc1_iconImg { display: none; }
 .hmc1Chg .hd ul li img,text{ vertical-align: middle; }
-.hmc1Chg .hd ul li:last-child{width:17.12%;}
+.hmc1Chg .hd ul li:last-child{width:24.12%;}
 .hmc1Chg .hd ul li.on img{display:none;}
 .hmc1Chg .hd ul li.on .hmc1_iconImg{display:inline-block;}
 .hmc1Chg .hd ul li.on{ color: #333333; }
